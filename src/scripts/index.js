@@ -1,3 +1,7 @@
+// SCSS
 import '../styles/index.scss';
 
-console.log('webpack starterkit');
+// JS
+import 'document-register-element'
+import '../components/tag.component.js';
+
