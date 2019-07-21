@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>Web Components Playground</title>
 </head>
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
-  <mp-tag >Foo</mp-tag>
-  <mp-tag >Bar!!!</mp-tag>
+  <!-- <mp-static-header></mp-static-header> -->
+  <script>
+    let $staticHeader = document.createElement("mp-static-header");
+    setTimeout(() => {
+      document.body.appendChild($staticHeader);
+    }, 3000)
+  </script>
 </body>
 </html>
