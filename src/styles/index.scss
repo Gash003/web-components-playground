@@ -1,4 +1,11 @@
+@import "./_reset";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+
+div {
+  border: 1px solid red !important;
 }
